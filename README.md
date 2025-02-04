@@ -1,4 +1,3 @@
-readme_content = """
 # Turtle Potential Field Navigation
 
 A ROS C++ node for **Turtlesim** using the **Artificial Potential Field (APF)** algorithm. The turtle navigates towards a goal while avoiding a dynamically spawned obstacle.
