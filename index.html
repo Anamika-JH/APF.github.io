@@ -140,9 +140,11 @@
         <div class="content has-text-justified">
           <p style="text-align: justify;">
             This project demonstrates an obstacle-aware navigation system for a Turtlesim robot using the Artificial Potential Field (APF) algorithm implemented in C++ with ROS. The robot is tasked with reaching a predefined goal at coordinates (9.0, 9.0) while avoiding a static obstacle spawned at (7.6, 7.5). 
+          
+            The APF method combines an attractive force that pulls the turtle toward the goal and a repulsive force that pushes it away from the obstacle when within an effective range. 
           </p>
           <p>
-            The APF method combines an attractive force that pulls the turtle toward the goal and a repulsive force that pushes it away from the obstacle when within an effective range. By continuously subscribing to the turtle’s real-time pose, the system calculates these forces to adjust the robot's linear and angular velocities dynamically. The turtle autonomously navigates around the obstacle and halts upon reaching the goal. 
+            By continuously subscribing to the turtle’s real-time pose, the system calculates these forces to adjust the robot's linear and angular velocities dynamically. The turtle autonomously navigates around the obstacle and halts upon reaching the goal. 
         </div>
       </div>
     </div>
